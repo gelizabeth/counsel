@@ -65,7 +65,8 @@ p {
     border-top: 2px solid #ffc222; }
   .header .head {
     width: 35%;
-    margin-right: 30%; }
+    margin-right: 30%;
+    margin-left: 2rem; }
   .header .btn-show {
     margin-right: 3rem; }
   @media (max-width: 991.98px) {
@@ -177,7 +178,5 @@ p {
 
 #consult .header {
   justify-content: flex-start; }
-  #consult .header .head {
-    margin-left: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
