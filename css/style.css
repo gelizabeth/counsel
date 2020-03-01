@@ -93,8 +93,7 @@ p {
 .header__top {
   background-color: #303030; }
   .header__top a {
-    color: #fff;
-    margin-right: 2rem; }
+    color: #fff; }
   .header__top a.btn_consult {
     color: #303030;
     text-decoration: none;
