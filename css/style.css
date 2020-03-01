@@ -306,6 +306,9 @@ p {
         #footer .footer__content .footer-item:first-of-type {
           width: 100%;
           text-align: center; }
+          #footer .footer__content .footer-item:first-of-type .links {
+            text-align: left;
+            width: 100%; }
           #footer .footer__content .footer-item:first-of-type h4, #footer .footer__content .footer-item:first-of-type p, #footer .footer__content .footer-item:first-of-type .btn_consult {
             width: 100%;
             margin-bottom: 1rem; }
