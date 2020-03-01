@@ -167,15 +167,44 @@
     </div>
   </section>
   <section id="consult">
+
     <div class="container">
-      <div class="header">
+      <img src="img/girl.png" alt="">
+      <div class="header mx-0">
         <div class="head">
           <h2>Получить консультацию</h2>
           <p>Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во всех судебных инстанциях.</p>
         </div>
 
       </div>
-      <form action=""></form>
+
+      <form class="consult__form" action="">
+        <div class='form-group'>
+          <label for="e-mail">E-mail</label>
+          <input class="form-item" type="email" id="e-mail">
+
+          <label for="phone">Контактный телефон</label>
+          <input class="form-item" type="tel" id="phone">
+
+          <label for="name">ФИО</label>
+          <input class="form-item" type="text" id="name">
+
+          <label for="question">Тема вопроса</label>
+          <select class="form-item" id="question">
+            <option>-----</option>
+            <option>Тема 1</option>
+            <option>Тема 2</option>
+            <option>Тема 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea class="form-item" id="message" rows="6" cols="50"></textarea>
+          <button type="button" name="button" class="btn-main">Получить консультацию</button>
+        </div>
+
+      </form>
+
     </div>
 
   </section>
