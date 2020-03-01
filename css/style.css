@@ -45,6 +45,11 @@ h3 {
   font-size: 1rem;
   padding: 1rem; }
 
+h4 {
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  line-height: 1.5rem; }
+
 p {
   font-size: 0.875rem;
   font-family: "PT Serif";
@@ -212,7 +217,7 @@ p {
 #consult .container img {
   position: relative;
   float: right;
-  z-index: 10; }
+  z-index: 1; }
 @media (max-width: 991.98px) {
   #consult img {
     display: none; }
@@ -221,5 +226,21 @@ p {
     width: 100%; }
     #consult .container .consult__form .form-group:nth-of-type(1n) {
       width: 100%; } }
+
+#features {
+  background-image: url("../img/features.png");
+  background-size: cover;
+  position: relative;
+  z-index: 10; }
+  #features .feature__content {
+    margin: 2rem auto; }
+    #features .feature__content .feature-item {
+      padding: 2rem;
+      text-align: center;
+      color: #fff;
+      font-weight: 400; }
+      #features .feature__content .feature-item p {
+        color: #e6e6e6;
+        font-size: 0.8rem; }
 
 /*# sourceMappingURL=style.css.map */
